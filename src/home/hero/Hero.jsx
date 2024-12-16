@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../../components/title/Title.jsx'
+import Title from '../../components/common/title/Title'
 import './hero.css'
 const Hero = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../title/Title.jsx'
+import Title from '../common/title/Title.jsx';
 import { homeAbout } from '../../dummydata.js'
 import AWrapper from './AWrapper.jsx'
 import './about.css';
