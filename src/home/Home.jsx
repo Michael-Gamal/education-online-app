@@ -3,13 +3,18 @@ import'./home.css'
 import Hero from './hero/Hero'
 import AboutCard from '../components/about/AboutCard'
 import HAbout from './HAbout'
+import Test from './testimonals/Test'
+import Hblog from './Hblog'
+import Hprice from './Hprice'
 const Home = () => {
   return (
     <>
       <Hero />
       <AboutCard />
       <HAbout />
-      {/* <AboutCard /> */}
+      <Test />
+      <Hblog />
+      <Hprice />
     </>
   )
 }
