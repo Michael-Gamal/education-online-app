@@ -2,7 +2,6 @@ import React from 'react'
 import { coursesCard } from '../dummydata'
 import Title from '../components/common/title/Title'
 import OnlineCurses from '../components/allcourses/OnlineCurses'
-
 const HAbout = () => {
   return (
     <>
@@ -15,12 +14,10 @@ const HAbout = () => {
                               return (
                                 <div className="item">
                                   <div className="content flex">
-                                    <div className="left">
+                                    <div className="details">
                                       <div className="img">
                                         <img src={val.cover} alt="" />
                                       </div>
-                                    </div>
-                                    <div className="details">
                                     <div className="text">
                                       <h1>{val.coursesName}</h1>
                                     </div>
@@ -41,8 +38,8 @@ const HAbout = () => {
                                             </div>
                                             <div className="para">
                                               <h4>{details.name}</h4>
+                                              <span>{details.totalTime}</span>
                                             </div>
-                                            <span>{details.totalTime}</span>
                                           </div>
                                             </>
                                         )

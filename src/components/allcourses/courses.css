@@ -42,8 +42,6 @@
     margin-top: 20px;
 }
 .coursesCard .details .box {
-    display: flex;
-    align-items: center;
     color: gray;
 }
 .coursesCard .details span {
@@ -107,4 +105,12 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.details .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

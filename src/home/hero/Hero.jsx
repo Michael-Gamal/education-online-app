@@ -1,10 +1,12 @@
 import React from 'react'
 import Title from '../../components/common/title/Title'
 import './hero.css'
+// import Header from '../../components/header/Header'
 const Hero = () => {
   return (
     <>
-        <section className="hero">
+        <div className="hero">
+            
             <div className="container">
                 <div className="row">
                     <Title subtitle='WELCOME TO ACADEMIA' title= 'Best Online Education' />
@@ -24,10 +26,8 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </section>
-        <div className="margin">
-
         </div>
+
     </>
   )
 }

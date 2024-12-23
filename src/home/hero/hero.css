@@ -28,8 +28,7 @@
     }
     .hero {
         background-position: right;      /**why*/   
-        padding-top: 50%;
-        /* height: 80vh; */
+        display: flex;
     }
     .hero .row {
         width: 100%;

@@ -27,26 +27,7 @@ const Footer = () => {
                 <i className="fab fa-twitter icon"></i>
                 <i className="fab fa-youtube icon"></i>
             </div>
-            <div className="box link">
-                <h3>Explore</h3>
-                <ul>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                </ul>
-            </div>
-            <div className="box link">
-                <h3>Quck links</h3>
-                <ul>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                    <li>About Us</li>
-                </ul>
-            </div>
+
             <div className="box">
                 <h3>Recent post</h3>
                 {blog.slice(0, 3).map((val) => {
@@ -58,13 +39,13 @@ const Footer = () => {
                             <div className="text">
                                 <span>
                                     <i className="fa fa-user"></i>
-                                    <label htmlFor="">{val.type}</label>
+                                    <label htmlFor=""> {val.type} </label>
                                 </span>
                                 <span>
                                 <i class="fa fa-calendar" ></i>
-                                <label htmlFor="">{val.date}</label>
+                                <label htmlFor=""> {val.date} </label>
                                 </span>
-                                <h4>{val.title}</h4>                  
+                                <h4> {val.title} </h4>                  
                             </div>
                         </div>
                     )

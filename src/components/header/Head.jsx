@@ -3,7 +3,7 @@ import './header.css'
 import './header.css'
 const Head = () => {
   return (
-    <section className='head'>
+    <div className='head'>
         <div className="container flexSB">
             <div className="logo">
                 <h1>ACADEMIA</h1>
@@ -16,7 +16,7 @@ const Head = () => {
                 <i className="fab fa-youtube icon"></i>
             </div>
         </div>
-    </section>  )
+    </div>  )
 }
 
 export default Head

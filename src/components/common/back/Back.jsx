@@ -8,7 +8,6 @@ const Back = ({ title }) => {
             <h2>Home / {location.pathname.split("/")[1]}</h2>   {/** why */}
             <h1>{title}</h1>
         </section>
-        <div className="margin"></div>
     </div>
   )
 }

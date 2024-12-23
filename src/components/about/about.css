@@ -61,10 +61,20 @@
     font-size: 20px;
     font-weight: 500;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .aboutHome {
-        margin-top: 30%;
+        text-align: center;
     }
+    .aboutHome .item  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* .aboutHome {
+        margin-top: 30%;
+    } */
     .aboutHome .container {
         flex-direction: column-reverse;
     }
@@ -73,5 +83,11 @@
     }
     .awrapper {
         height: 50vh;
+    }
+    .aboutHome #heading {
+        text-align: center;
+    }
+    .awrapper .box {
+        padding: 10px ;
     }
 }

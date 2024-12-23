@@ -1,6 +1,7 @@
 import React from 'react'
 import Back from "../common/back/Back.jsx"
 import CoursesCard from './CoursesCard.jsx'
+import "./courses.css"
 import OnlineCurses from './OnlineCurses.jsx'
 
 const CourseHome = () => {

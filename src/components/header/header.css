@@ -10,6 +10,10 @@
     margin-left: 10px;
 }
 /* ======= START HEADER ======= */
+section.header {
+    height: 100vh;
+    margin-bottom: 50px;
+}
 header {
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 30px;
@@ -67,7 +71,7 @@ header ul li a:hover {
     }
     .mobile-nav {
         position: absolute;
-        top: 7vh;
+        top: 10vh;
         left: 0;
         width: 100%;
         background-color: #1eb2a6;
@@ -79,5 +83,13 @@ header ul li a:hover {
     header ul li {
         margin-bottom: 20px;
     }
+    
+        .header .container {
+            flex-direction: row;
+        }
+        section.header {
+            margin-bottom: 1%;
+        }
+    
 }
 /* ======= END HEADER ======= */

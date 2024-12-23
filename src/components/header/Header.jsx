@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import {  Link } from 'react-router-dom';
 import './header.css'
 import Head from './Head.jsx'
+import Hero from '../../home/hero/Hero.jsx';
 const Header = () => {
     const [click, setClick] = useState(false)
   return (
-    <>
+    <section className='header'>
         <Head />
         <header>
             <nav className='flexSB'>
@@ -42,7 +43,7 @@ const Header = () => {
                 </button>
             </nav>
         </header>
-    </>
+    </section>
   )
 }
 
